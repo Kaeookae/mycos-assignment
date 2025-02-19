@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: #eaf2f8;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.bet-section {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100px;
+}
+
+.bet-options button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #99a3a4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .bet-options button:hover {
+        background-color: #bfc9ca;
+    }
+
+#rollButton {
+    padding: 10px 20px;
+    background-color: #424949;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    #rollButton:hover {
+        background-color: #0056b3;
+    }
+
+.dice-results {
+    margin-top: 20px;
+}
+.dice-results img {
+    width: 50px;
+    margin: 0 10px;
+}
+
+#resultMessage {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.balance-section {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+    .balance-section h3 {
+        margin: 0;
+    }
+
+    .balance-section button {
+        margin-top: 10px;
+        padding: 10px 15px;
+        background-color: #2e4053;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .balance-section button:hover {
+            background-color: #808b96;
+        }

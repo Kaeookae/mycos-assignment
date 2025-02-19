@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Betting Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dice Betting Game</h1>
+        <div class="balance-section">
+            <h3>Your Balance: $<span id="balance">100</span></h3>
+            <button onclick="resetBalance()">Reset Balance</button>
+        </div>
+        <div class="bet-section">
+            <label for="betAmount">Bet Amount:</label>
+            <input type="number" id="betAmount" min="1" placeholder="Enter your bet">
+            <button onclick="increaseBet()">Add $10</button>
+            <button onclick="resetBet()">Clear</button>
+            <div class="bet-options">
+                <button onclick="placeBet('high')">High (≥ 12)</button>
+                <button onclick="placeBet('mid')">Mid (= 11)</button>
+                <button onclick="placeBet('low')">Low (≤ 10)</button>
+            </div>
+        </div>
+        <button id="rollButton" onclick="rollDice()">Roll Dice</button>
+        <div class="dice-results">
+            <img id="dice1" src="images/BlackDice.png" alt="Dice 1">
+            <img id="dice2" src="images/BlackDice.png" alt="Dice 2">
+            <img id="dice3" src="images/BlackDice.png" alt="Dice 3">
+        </div>
+        <div id="resultMessage"></div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
