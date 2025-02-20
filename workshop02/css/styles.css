@@ -45,6 +45,11 @@ input {
         background-color: #bfc9ca;
     }
 
+    .bet-options button.active {
+        background-color: #424949; /* Change this to your desired active color */
+        color: white; /* Optional: Change text color if needed */
+    }
+
 #rollButton {
     padding: 10px 20px;
     background-color: #424949;
@@ -61,10 +66,11 @@ input {
 .dice-results {
     margin-top: 20px;
 }
-.dice-results img {
-    width: 50px;
-    margin: 0 10px;
-}
+
+    .dice-results img {
+        width: 50px;
+        margin: 0 10px;
+    }
 
 #resultMessage {
     margin-top: 20px;
